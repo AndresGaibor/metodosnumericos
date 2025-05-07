@@ -10,7 +10,7 @@ double fu(double x)
 
 int main()
 {
-    double a = 0, b = 0, eMax = 0;
+    float a = 0, b = 0, eMax = 0;
     cout << "Ingrese el dominio minimo: ";
     cin >> a;
 
@@ -21,7 +21,7 @@ int main()
     cin >> eMax;
     cout << endl;
 
-    double ci, signo;
+    double ci, signo, e;
 
     do
     {
@@ -36,9 +36,11 @@ int main()
             b = ci;
         }
 
-        double e = (b - a) / 2;
+        e = (b - a) / 2;
 
-    } while (ci >= eMax);
+    } while (e >= eMax);
+
+    cout << "La raíz aproximada es: " << ci << endl;
 
     return 0;
 }
