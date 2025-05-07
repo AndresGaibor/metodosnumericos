@@ -8,5 +8,9 @@
         "cpp": false,
         "rust": false,
         "sql": true
+    },
+    "files.associations": {
+        "iostream": "cpp",
+        "cmath": "cpp"
     }
 }
