@@ -26,7 +26,7 @@ int main()
     do
     {
         ci = (a + b) / 2;
-        cout << "a: " << a << " - b: " << b << " - c: " << ci;
+        cout << "a: " << a << "   b: " << b << "   c: " << ci << endl;
 
         signo = fu(a) * fu(ci);
 
