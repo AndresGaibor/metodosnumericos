@@ -5,7 +5,7 @@ using namespace std;
 
 double fu(double x)
 {
-    return pow(x, 2) + 2 * x + 5;
+    return pow(x, 3) - 3 * pow(x, 2) + 1;
 }
 
 int main()

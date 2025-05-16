@@ -1,5 +1,7 @@
 #include <iostream>
+#include <iomanip> // Para setprecision
 #include <cmath>
+
 
 using namespace std;
 
@@ -10,7 +12,7 @@ double fu(double x)
 
 int main()
 {
-    float a = 0, b = 0, eMax = 0;
+    double a = 0, b = 0, eMax = 0;
     cout << "Ingrese el dominio minimo: ";
     cin >> a;
 
