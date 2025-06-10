@@ -5,7 +5,7 @@
         "markdown": true,
         "scminput": false,
         "yaml": false,
-        "cpp": false,
+        "cpp": true,
         "rust": false,
         "sql": true
     },

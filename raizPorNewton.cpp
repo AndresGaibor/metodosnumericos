@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Función f(x) = ln(x) + x - 3
+// Función f(x) = x^3 - 3 x ^ 2 + 1
 double f(double x) {
     return pow(x, 3)  - 3 * pow(x, 2) + 1;  // log(x) es el logaritmo natural
 }
